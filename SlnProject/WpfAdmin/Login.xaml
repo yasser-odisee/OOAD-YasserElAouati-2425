@@ -1,0 +1,16 @@
+﻿<Page x:Class="WpfAdmin.Pages.LoginPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      Title="LoginPage">
+
+    <Grid Background="White">
+        <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+            <TextBlock Text="Gebruikersnaam" Margin="0,5"/>
+            <TextBox x:Name="txtGebruikersnaam" Width="200" Margin="0,5"/>
+
+            <TextBlock Text="Wachtwoord" Margin="0,5"/>
+            <PasswordBox x:Name="txtWachtwoord" Width="200" Margin="0,5"/>
+            <Button x:Name="btnLogin" Content="Inloggen" Width="100" Margin="0,10" Click="btnLogin_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
